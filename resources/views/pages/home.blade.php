@@ -8,14 +8,14 @@
                         data-background="{{ asset('assets/images/slider/slide-2.jpg') }}">
                         <div class="container">
                             <div data-swiper-parallax="300" class="slide-subtitle">
-                                <span>Best industry</span>
+                                <span>Best Mining</span>
                             </div>
                             <div data-swiper-parallax="400" class="slide-title">
-                                <h2><span>We Provide Best</span> Industrial Services</h2>
+                                <h2><span>We Provide Best</span> Mining Services</h2>
                             </div>
                             <div class="clearfix"></div>
                             <div data-swiper-parallax="500" class="slide-btns">
-                                <a href="{{ route('service') }}" class="theme-btn">Our industry</a>
+                                <a href="{{ route('service') }}" class="theme-btn">Our Mining</a>
                                 <a href="{{ route('about') }}" class="theme-btn-s2">Contact us</a>
                             </div>
                         </div>
@@ -27,14 +27,14 @@
                         data-background="{{ asset('assets/images/slider/slide-1.jpg') }}">
                         <div class="container">
                             <div data-swiper-parallax="300" class="slide-subtitle">
-                                <span>Best industry</span>
+                                <span>Best Mining</span>
                             </div>
                             <div data-swiper-parallax="400" class="slide-title">
-                                <h2><span>We Provide Best</span> Industrial Services</h2>
+                                <h2><span>We Provide Best</span> Mining Services</h2>
                             </div>
                             <div class="clearfix"></div>
                             <div data-swiper-parallax="500" class="slide-btns">
-                                <a href="{{ route('service') }}" class="theme-btn">Our industry</a>
+                                <a href="{{ route('service') }}" class="theme-btn">Our Mining</a>
                                 <a href="{{ route('about') }}" class="theme-btn-s2">Contact us</a>
                             </div>
                         </div>
@@ -46,14 +46,14 @@
                         data-background="{{ asset('assets/images/slider/slide-3.jpg') }}">
                         <div class="container">
                             <div data-swiper-parallax="300" class="slide-subtitle">
-                                <span>Best industry</span>
+                                <span>Best Mining</span>
                             </div>
                             <div data-swiper-parallax="400" class="slide-title">
-                                <h2><span>We Provide Best</span> Industrial Services</h2>
+                                <h2><span>We Provide Best</span> Mining Services</h2>
                             </div>
                             <div class="clearfix"></div>
                             <div data-swiper-parallax="500" class="slide-btns">
-                                <a href="{{ route('service') }}" class="theme-btn">Our industry</a>
+                                <a href="{{ route('service') }}" class="theme-btn">Our Mining</a>
                                 <a href="{{ route('about') }}" class="theme-btn-s2">Contact us</a>
                             </div>
                         </div>
@@ -112,12 +112,12 @@
                 <div class="col col-md-7">
                     <div class="section-title">
                         <span>About us</span>
-                        <h2>Most Modern & Powerfull <span>Industry in the world</span></h2>
+                        <h2>Most Modern & Powerfull <span>Mining in the world</span></h2>
                     </div>
                     <div class="details">
                         <p>Setmac Mining Private Limited (‘’Setmac Mining ”) is a Zimbabwean registered company, operating
                             since 2019. Our primary business is the supply of process Chemicals and Mining Equipment for the
-                            mining and manufacturing industries.</p>
+                            mining and manufacturing Mines.</p>
                         <p>Setmac Mining offers quality products at competitive prices, and guarantees timely delivery in
                             and around Zimbabwe.Setmac Mining sources quality products from world-renowned manufacturers
                             within, and outside Africa. Some of Setmac Mining major partners are Sonking , Curechem Overseas
@@ -209,7 +209,7 @@
                             </div>
                             <div class="details">
                                 <i class="fi flaticon-factory"></i>
-                                <h3><a href="#">General Industry</a></h3>
+                                <h3><a href="#">General Mining</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
                         </div>
@@ -284,8 +284,8 @@
             <div class="row">
                 <div class="col col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2">
                     <div class="cta-details">
-                        <p>We take care of your industry</p>
-                        <h2>Best industrial solution in the world</h2>
+                        <p>We take care of your Mining</p>
+                        <h2>Best Mining solution in the world</h2>
                         <a href="#" class="theme-btn">Contact us</a>
                     </div>
                 </div>
@@ -311,7 +311,7 @@
                             <li><a data-filter=".chemical" href="#">Chemical</a></li>
                             <li><a data-filter=".oil" href="#">Oil & Gas</a></li>
                             <li><a data-filter=".mechanical" href="#">mechanical</a></li>
-                            <li><a data-filter=".industrial" href="#">industrial</a></li>
+                            <li><a data-filter=".Mining" href="#">Mining</a></li>
                         </ul>
                     </div>
                     <div class="gallery-container project-grids">
@@ -323,8 +323,8 @@
                                 <div class="details">
                                     <div class="arrow"><a href="#"><i class="fi flaticon-next"></i></a></div>
                                     <div class="info">
-                                        <h3><a href="#">Asian Industrial Project</a></h3>
-                                        <p class="cat">Industry, Corporate</p>
+                                        <h3><a href="#">Asian Mining Project</a></h3>
+                                        <p class="cat">Mining, Corporate</p>
                                     </div>
                                 </div>
                             </div>
@@ -337,8 +337,8 @@
                                 <div class="details">
                                     <div class="arrow"><a href="#"><i class="fi flaticon-next"></i></a></div>
                                     <div class="info">
-                                        <h3><a href="#">Asian Industrial Project</a></h3>
-                                        <p class="cat">Industry, Corporate</p>
+                                        <h3><a href="#">Asian Mining Project</a></h3>
+                                        <p class="cat">Mining, Corporate</p>
                                     </div>
                                 </div>
                             </div>
@@ -351,8 +351,8 @@
                                 <div class="details">
                                     <div class="arrow"><a href="#"><i class="fi flaticon-next"></i></a></div>
                                     <div class="info">
-                                        <h3><a href="#">Asian Industrial Project</a></h3>
-                                        <p class="cat">Industry, Corporate</p>
+                                        <h3><a href="#">Asian Mining Project</a></h3>
+                                        <p class="cat">Mining, Corporate</p>
                                     </div>
                                 </div>
                             </div>
@@ -365,13 +365,13 @@
                                 <div class="details">
                                     <div class="arrow"><a href="#"><i class="fi flaticon-next"></i></a></div>
                                     <div class="info">
-                                        <h3><a href="#">Asian Industrial Project</a></h3>
-                                        <p class="cat">Industry, Corporate</p>
+                                        <h3><a href="#">Asian Mining Project</a></h3>
+                                        <p class="cat">Mining, Corporate</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="grid oil industrial">
+                        <div class="grid oil Mining">
                             <div class="inner">
                                 <div class="img-holder">
                                     <img src="{{ asset('assets/images/latest-projects/img-5.jpg') }}" alt>
@@ -379,13 +379,13 @@
                                 <div class="details">
                                     <div class="arrow"><a href="#"><i class="fi flaticon-next"></i></a></div>
                                     <div class="info">
-                                        <h3><a href="#">Asian Industrial Project</a></h3>
-                                        <p class="cat">Industry, Corporate</p>
+                                        <h3><a href="#">Asian Mining Project</a></h3>
+                                        <p class="cat">Mining, Corporate</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="grid mechanical industrial">
+                        <div class="grid mechanical Mining">
                             <div class="inner">
                                 <div class="img-holder">
                                     <img src="{{ asset('assets/images/latest-projects/img-6.jpg') }}" alt>
@@ -393,8 +393,8 @@
                                 <div class="details">
                                     <div class="arrow"><a href="#"><i class="fi flaticon-next"></i></a></div>
                                     <div class="info">
-                                        <h3><a href="#">Asian Industrial Project</a></h3>
-                                        <p class="cat">Industry, Corporate</p>
+                                        <h3><a href="#">Asian Mining Project</a></h3>
+                                        <p class="cat">Mining, Corporate</p>
                                     </div>
                                 </div>
                             </div>
@@ -410,7 +410,7 @@
             <div class="left-col">
                 <div class="section-title">
                     <span>Why Choose us</span>
-                    <h2>We have 37 years of experience, <span>in this industry</span></h2>
+                    <h2>We have 37 years of experience, <span>in this Mining</span></h2>
                 </div>
                 <div class="details">
                     <p>Cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out
@@ -425,7 +425,7 @@
                             </div>
                         </div>
                         <div class="skill">
-                            <h6>Industrial</h6>
+                            <h6>Mining</h6>
                             <div class="progress">
                                 <div class="progress-bar" data-percent="95"></div>
                             </div>

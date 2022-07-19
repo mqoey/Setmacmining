@@ -20,12 +20,12 @@
                 <div class="col col-md-7">
                     <div class="section-title">
                         <span>About us</span>
-                        <h2>Most Modern & Powerfull <span>Industry in the world</span></h2>
+                        <h2>Most Modern & Powerfull <span>Mining in the world</span></h2>
                     </div>
                     <div class="details">
                         <p>Setmac Mining Private Limited (" Setmac Mining ”) is a Zimbabwean registered company, operating
                             since 2019. Our primary business is the supply of process Chemicals and Mining Equipment for the
-                            mining and manufacturing industries.</p>
+                            mining and manufacturing Mines.</p>
                         <p>Setmac Mining offers quality products at competitive prices, and guarantees timely delivery in
                             and around Zimbabwe.Setmac Mining sources quality products from world-renowned manufacturers
                             within, and outside Africa. Some of Setmac Mining major partners are Sonking , Curechem Overseas

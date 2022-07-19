@@ -41,7 +41,7 @@
                                 <ul>
                                     <li><i class="ti-mobile"></i>+263 78 060 3474</li>
                                     <li><i class="ti-email"></i>sales@setmacmining.co.zw</li>
-                                    <li><i class="ti-time"></i> Sun - Fri 8 AM - 6PM</li>
+                                    <li><i class="ti-time"></i> Mon - Fri 8 AM - 6PM</li>
                                 </ul>
                             </div>
                         </div>
