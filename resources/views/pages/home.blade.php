@@ -185,7 +185,7 @@
                         </div>
                         <div class="grid">
                             <div class="img-holder">
-                                <img src="assets/images/services/img-4.jpg" alt>
+                                <img src="{{asset('assets/images/services/img-4.')}}" alt>
                             </div>
                             <div class="details">
                                 <i class="fi flaticon-oil-1"></i>
@@ -195,7 +195,7 @@
                         </div>
                         <div class="grid">
                             <div class="img-holder">
-                                <img src="assets/images/services/img-5.jpg" alt>
+                                <img src="{{asset('assets/images/services/img-5.jpg')}}" alt>
                             </div>
                             <div class="details">
                                 <i class="fi flaticon-truck"></i>
@@ -205,7 +205,7 @@
                         </div>
                         <div class="grid">
                             <div class="img-holder">
-                                <img src="assets/images/services/img-6.jpg" alt>
+                                <img src="{{asset('assets/images/services/img-6.jpg')}}" alt>
                             </div>
                             <div class="details">
                                 <i class="fi flaticon-factory"></i>
