@@ -140,11 +140,11 @@
         </div>
     </section>
 
-    <section class="services-section section-padding">
+    <section class="services-section-s2 section-padding">
         <div class="container">
             <div class="row">
                 <div class="col col-lg-4 col-lg-offset-4 col-sm-6 col-sm-offset-3">
-                    <div class="section-title-s2">
+                    <div class="section-title-s4">
                         <span>Services</span>
                         <h2>The Best Services <span>we provide</span></h2>
                     </div>
@@ -154,59 +154,64 @@
                 <div class="col col-xs-12">
                     <div class="service-grids clearfix">
                         <div class="grid">
-                            <div class="icon">
+                            <div class="img-holder">
+                                <img src="assets/images/services/img-1.jpg" alt>
+                            </div>
+                            <div class="details">
                                 <i class="fi flaticon-solar-energy"></i>
+                                <h3><a href="#">Power & Energy</a></h3>
+                                <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
-                            <h3>Solid Sodium Cyanide</h3>
-                            <p>Imports and supplies solid Sodium Cyanide briquettes (98% purity) for use in gold extraction
-                                processes
-                            </p>
-                            <a href="{{route('about')}}" class="read-more">Read more</a>
                         </div>
                         <div class="grid">
-                            <div class="icon">
+                            <div class="img-holder">
+                                <img src="assets/images/services/img-2.jpg" alt>
+                            </div>
+                            <div class="details">
                                 <i class="fi flaticon-plug"></i>
+                                <h3><a href="#">Mechanical Works</a></h3>
+                                <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
-                            <h3>Cyanide</h3>
-                            <p>Recently cut out of an illustrated magazine and housed in a nice, gilded frame. showed a lady
-                            </p>
-                            <a href="{{route('about')}}" class="read-more">Read more</a>
                         </div>
                         <div class="grid">
-                            <div class="icon">
+                            <div class="img-holder">
+                                <img src="assets/images/services/img-3.jpg" alt>
+                            </div>
+                            <div class="details">
                                 <i class="fi flaticon-oil-barrel"></i>
+                                <h3><a href="#">Petroleum Refinery</a></h3>
+                                <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
-                            <h3>Packaging is in 50kg drums</h3>
-                            <p>Recently cut out of an illustrated magazine and housed in a nice, gilded frame. showed a lady
-                            </p>
-                            <a href="{{route('about')}}" class="read-more">Read more</a>
                         </div>
                         <div class="grid">
-                            <div class="icon">
+                            <div class="img-holder">
+                                <img src="assets/images/services/img-4.jpg" alt>
+                            </div>
+                            <div class="details">
                                 <i class="fi flaticon-oil-1"></i>
+                                <h3><a href="#">Oil and Gas</a></h3>
+                                <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
-                            <h3>Caustic</h3>
-                            <p>Recently cut out of an illustrated magazine and housed in a nice, gilded frame. showed a lady
-                            </p>
-                            <a href="{{route('about')}}" class="read-more">Read more</a>
                         </div>
                         <div class="grid">
-                            <div class="icon">
+                            <div class="img-holder">
+                                <img src="assets/images/services/img-5.jpg" alt>
+                            </div>
+                            <div class="details">
                                 <i class="fi flaticon-truck"></i>
+                                <h3><a href="#">Logistics Services</a></h3>
+                                <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
-                            <h3>Silver Mercury</h3>
-                            <p>Recently cut out of an illustrated magazine and housed in a nice, gilded frame. showed a lady
-                            </p>
-                            <a href="{{route('about')}}" class="read-more">Read more</a>
                         </div>
                         <div class="grid">
-                            <div class="icon">
-                                <i class="fi flaticon-factory"></i>
+                            <div class="img-holder">
+                                <img src="assets/images/services/img-6.jpg" alt>
                             </div>
-                            <h3>General Industry</h3>
-                            <p>Recently cut out of an illustrated magazine and housed in a nice, gilded frame. showed a lady
-                            </p>
-                            <a href="{{route('about')}}" class="read-more">Read more</a>
+                            <div class="details">
+                                <i class="fi flaticon-factory"></i>
+                                <h3><a href="#">General Industry</a></h3>
+                                <p>Recently cut out of an illustrated magine and housed indust</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -274,20 +279,18 @@
         </div>
     </section>
 
-    <section class="cta-section">
+    <section class="cta-section-s2">
         <div class="container">
             <div class="row">
                 <div class="col col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2">
                     <div class="cta-details">
-                        <div class="video">
-                            <a href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1" class="video-btn"
-                                data-type="iframe" tabindex="0"><i class="fi flaticon-play-button"></i></a>
-                        </div>
+                        <p>We take care of your industry</p>
                         <h2>Best industrial solution in the world</h2>
+                        <a href="#" class="theme-btn">Contact us</a>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> <!-- end container -->
     </section>
 
     <section class="latest-projects-section section-padding">

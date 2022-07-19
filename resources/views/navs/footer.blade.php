@@ -7,8 +7,7 @@
                         <div class="logo widget-title">
                             <h3>About us</h3>
                         </div>
-                        <p>Setmac Mining  Private Limited operating since 2019.
-                            
+                        <p>Setmac Mining Private Limited operating since 2019.
                         </p>
                         <div class="social">
                             <ul>
@@ -26,10 +25,10 @@
                             <h3>Important Links</h3>
                         </div>
                         <ul>
-                            <li><a href="{{route('home')}}">Home</a></li>
-                            <li><a href="{{route('about')}}">About Us</a></li>
-                            <li><a href="{{route('service')}}">Our services</a></li>
-                            <li><a href="{{route('contact')}}">Contact</a></li>
+                            <li><a href="{{ route('home') }}">Home</a></li>
+                            <li><a href="{{ route('about') }}">About Us</a></li>
+                            <li><a href="{{ route('service') }}">Our services</a></li>
+                            <li><a href="{{ route('contact') }}">Contact</a></li>
                         </ul>
                     </div>
                 </div>
