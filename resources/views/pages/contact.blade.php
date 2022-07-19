@@ -55,7 +55,8 @@
                         </div>
                         <div class="clearfix error-handling-messages">
                             <div id="success">Thank you</div>
-                            <div id="error"> Error occurred while sending email. Please try again later. </div>
+                            <div id="error"> Email service disabled. Contact administrator </div>
+                            {{-- <div id="error"> Error occurred while sending email. Please try again later. </div> --}}
                         </div>
                     </form>
                 </div>
@@ -63,27 +64,29 @@
                 <div class="col col-md-5">
                     <div class="office-info">
                         <div>
-                            <h3>San Francisco</h3>
+                            <h3>Harare Head Office</h3>
                             <ul>
-                                <li><i class="ti-location-pin"></i> 22/1 nogor stree road bigan, usa</li>
-                                <li><i class="ti-mobile"></i> 64823425, 316574651256</li>
-                                <li><i class="ti-email"></i> deom@email.com</li>
+                                <li><i class="ti-location-pin"></i> 403 Kupambara Road New Marimba, Harare
+                                    </li>
+                                <li><i class="ti-mobile"></i> +263 71 856 1359, +263 78 060 3474</li>
+                                <li><i class="ti-email"></i> sales@setmacmining.co.zw</li>
                             </ul>
                         </div>
                         <div>
-                            <h3>Austria Office</h3>
+                            <h3>Zvishavane Sales Office</h3>
                             <ul>
-                                <li><i class="ti-location-pin"></i> 22/1 nogor stree road bigan, usa</li>
-                                <li><i class="ti-mobile"></i> 64823425, 316574651256</li>
-                                <li><i class="ti-email"></i> deom@email.com</li>
+                                <li><i class="ti-location-pin"></i> 805 B Robert Mugabe Way, Zvishavane
+                                    </li>
+                                <li><i class="ti-mobile"></i> +263 78 060 3474, +263 71 856 1359</li>
+                                <li><i class="ti-email"></i> sales@setmacmining.co.zw</li>
                             </ul>
                         </div>
                         <div>
-                            <h3>London</h3>
+                            <h3>Mashava Sales Office</h3>
                             <ul>
-                                <li><i class="ti-location-pin"></i> 22/1 nogor stree road bigan, usa</li>
-                                <li><i class="ti-mobile"></i> 64823425, 316574651256</li>
-                                <li><i class="ti-email"></i> deom@email.com</li>
+                                <li><i class="ti-location-pin"></i> Lennox Mine, Mashava</li>
+                                <li><i class="ti-mobile"></i> +263 78 060 3474, +263 71 856 1359</li>
+                                <li><i class="ti-email"></i> sales@setmacmining.co.zw</li>
                             </ul>
                         </div>
                     </div>
@@ -96,7 +99,7 @@
         <h2 class="hidden">Contact map</h2>
         <div class="contact-map">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=403 Kupambara Road New Marimba, Harare, Zimbabwe&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                 allowfullscreen></iframe>
         </div>
     </section>

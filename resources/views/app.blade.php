@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Mining equipment supplies" name="description" />
     <meta name="author" content="mqographics">
     <title> Setmac Mining </title>
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
@@ -40,7 +41,7 @@
                             <div class="contact-info">
                                 <ul>
                                     <li><i class="ti-mobile"></i>+263 78 060 3474</li>
-                                    <li><i class="ti-email"></i>sales@setmacmining.co.zw</li>
+                                    <li><i class="ti-email"></i>enquires@setmacmining.co.zw</li>
                                     <li><i class="ti-time"></i> Mon - Fri 8 AM - 6PM</li>
                                 </ul>
                             </div>

@@ -159,7 +159,7 @@
                             </div>
                             <div class="details">
                                 <i class="fi flaticon-solar-energy"></i>
-                                <h3><a href="#">Power & Energy</a></h3>
+                                <h3><a href="{{ route('service') }}">Mining imports and supplies</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                             </div>
                             <div class="details">
                                 <i class="fi flaticon-plug"></i>
-                                <h3><a href="#">Mechanical Works</a></h3>
+                                <h3><a href="{{ route('service') }}">Sodium Cyanide</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                             </div>
                             <div class="details">
                                 <i class="fi flaticon-oil-barrel"></i>
-                                <h3><a href="#">Petroleum Refinery</a></h3>
+                                <h3><a href="{{ route('service') }}">Caustic Soda</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
                         </div>
@@ -189,7 +189,7 @@
                             </div>
                             <div class="details">
                                 <i class="fi flaticon-oil-1"></i>
-                                <h3><a href="#">Oil and Gas</a></h3>
+                                <h3><a href="{{ route('service') }}">Silver Mercury</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
                         </div>
@@ -199,7 +199,7 @@
                             </div>
                             <div class="details">
                                 <i class="fi flaticon-truck"></i>
-                                <h3><a href="#">Logistics Services</a></h3>
+                                <h3><a href="{{ route('service') }}">Logistics Services</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
                         </div>
@@ -209,7 +209,7 @@
                             </div>
                             <div class="details">
                                 <i class="fi flaticon-factory"></i>
-                                <h3><a href="#">General Mining</a></h3>
+                                <h3><a href="{{ route('service') }}">General Mining</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
                         </div>
@@ -286,119 +286,7 @@
                     <div class="cta-details">
                         <p>We take care of your Mining</p>
                         <h2>Best Mining solution in the world</h2>
-                        <a href="#" class="theme-btn">Contact us</a>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end container -->
-    </section>
-
-    <section class="latest-projects-section section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col col-lg-4 col-lg-offset-4 col-sm-6 col-sm-offset-3">
-                    <div class="section-title-s3">
-                        <span>Projects</span>
-                        <h2>See Latest Projects</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col col-xs-12 sortable-gallery">
-                    <div class="gallery-filters">
-                        <ul>
-                            <li><a data-filter="*" href="#" class="current">All Cases</a></li>
-                            <li><a data-filter=".chemical" href="#">Chemical</a></li>
-                            <li><a data-filter=".oil" href="#">Oil & Gas</a></li>
-                            <li><a data-filter=".mechanical" href="#">mechanical</a></li>
-                            <li><a data-filter=".Mining" href="#">Mining</a></li>
-                        </ul>
-                    </div>
-                    <div class="gallery-container project-grids">
-                        <div class="grid chemical">
-                            <div class="inner">
-                                <div class="img-holder">
-                                    <img src="{{ asset('assets/images/latest-projects/img-1.jpg') }}" alt>
-                                </div>
-                                <div class="details">
-                                    <div class="arrow"><a href="#"><i class="fi flaticon-next"></i></a></div>
-                                    <div class="info">
-                                        <h3><a href="#">Asian Mining Project</a></h3>
-                                        <p class="cat">Mining, Corporate</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="grid eudcation oil">
-                            <div class="inner">
-                                <div class="img-holder">
-                                    <img src="{{ asset('assets/images/latest-projects/img-2.jpg') }}" alt>
-                                </div>
-                                <div class="details">
-                                    <div class="arrow"><a href="#"><i class="fi flaticon-next"></i></a></div>
-                                    <div class="info">
-                                        <h3><a href="#">Asian Mining Project</a></h3>
-                                        <p class="cat">Mining, Corporate</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="grid oil eudcation">
-                            <div class="inner">
-                                <div class="img-holder">
-                                    <img src="{{ asset('assets/images/latest-projects/img-3.jpg') }}" alt>
-                                </div>
-                                <div class="details">
-                                    <div class="arrow"><a href="#"><i class="fi flaticon-next"></i></a></div>
-                                    <div class="info">
-                                        <h3><a href="#">Asian Mining Project</a></h3>
-                                        <p class="cat">Mining, Corporate</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="grid chemical mechanical">
-                            <div class="inner">
-                                <div class="img-holder">
-                                    <img src="{{ asset('assets/images/latest-projects/img-4.jpg') }}" alt>
-                                </div>
-                                <div class="details">
-                                    <div class="arrow"><a href="#"><i class="fi flaticon-next"></i></a></div>
-                                    <div class="info">
-                                        <h3><a href="#">Asian Mining Project</a></h3>
-                                        <p class="cat">Mining, Corporate</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="grid oil Mining">
-                            <div class="inner">
-                                <div class="img-holder">
-                                    <img src="{{ asset('assets/images/latest-projects/img-5.jpg') }}" alt>
-                                </div>
-                                <div class="details">
-                                    <div class="arrow"><a href="#"><i class="fi flaticon-next"></i></a></div>
-                                    <div class="info">
-                                        <h3><a href="#">Asian Mining Project</a></h3>
-                                        <p class="cat">Mining, Corporate</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="grid mechanical Mining">
-                            <div class="inner">
-                                <div class="img-holder">
-                                    <img src="{{ asset('assets/images/latest-projects/img-6.jpg') }}" alt>
-                                </div>
-                                <div class="details">
-                                    <div class="arrow"><a href="#"><i class="fi flaticon-next"></i></a></div>
-                                    <div class="info">
-                                        <h3><a href="#">Asian Mining Project</a></h3>
-                                        <p class="cat">Mining, Corporate</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <a href="{{ route('contact') }}" class="theme-btn">Contact us</a>
                     </div>
                 </div>
             </div>
@@ -410,28 +298,28 @@
             <div class="left-col">
                 <div class="section-title">
                     <span>Why Choose us</span>
-                    <h2>We have 37 years of experience, <span>in this Mining</span></h2>
+                    <h2>We have 4 years of experience, <span>in this Mining</span></h2>
                 </div>
                 <div class="details">
-                    <p>Cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out
-                        with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her
-                        lower arm towards the viewer ne and housed in a nice, gilded frame. It showed a lady fitted out with
+                    <p>Setmac Mining is registered with key regulatory bodies in Zimbabwe, such as the Environmental
+                        Management Agency, Ministry of Mines and Mining Development, as a licensed importer and supplier of
+                        Hazardous Chemicals.
                     </p>
                     <div class="skills">
                         <div class="skill">
-                            <h6>Production</h6>
+                            <h6>Mining Development</h6>
                             <div class="progress">
                                 <div class="progress-bar" data-percent="85"></div>
                             </div>
                         </div>
                         <div class="skill">
-                            <h6>Mining</h6>
+                            <h6>Environmental Management</h6>
                             <div class="progress">
                                 <div class="progress-bar" data-percent="95"></div>
                             </div>
                         </div>
                         <div class="skill">
-                            <h6>Construction</h6>
+                            <h6>Ministry of Mines</h6>
                             <div class="progress">
                                 <div class="progress-bar" data-percent="92"></div>
                             </div>
@@ -477,132 +365,34 @@
         </div>
     </section>
 
-    <section class="testimonials-section-s2 section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col col-xs-12">
-                    <div class="testimonial-grids testimonials-slider-s2">
-                        <div class="grid">
-                            <div class="client-info">
-                                <div class="client-pic">
-                                    <img src="{{ asset('assets/images/testimonials/img-1.jpg') }}" alt>
-                                </div>
-                                <h4>Jhon Dow</h4>
-                                <span>Manager of Demok</span>
-                            </div>
-                            <div class="client-quote">
-                                <p>“collection of textile samples lay spread out on the table Samsa was a travelling
-                                    salesman and above it there hung a picture that he had recently cut out of an
-                                    illustrated magazine and housed in a nice, gilded frame”</p>
-                            </div>
-                        </div>
-                        <div class="grid">
-                            <div class="client-info">
-                                <div class="client-pic">
-                                    <img src="{{ asset('assets/images/testimonials/img-2.jpg') }}" alt>
-                                </div>
-                                <h4>Jhon Dow</h4>
-                                <span>Manager of Demok</span>
-                            </div>
-                            <div class="client-quote">
-                                <p>“collection of textile samples lay spread out on the table Samsa was a travelling
-                                    salesman and above it there hung a picture that he had recently cut out of an
-                                    illustrated magazine and housed in a nice, gilded frame”</p>
-                            </div>
-                        </div>
-                        <div class="grid">
-                            <div class="client-info">
-                                <div class="client-pic">
-                                    <img src="{{ asset('assets/images/testimonials/img-1.jpg') }}" alt>
-                                </div>
-                                <h4>Jhon Dow</h4>
-                                <span>Manager of Demok</span>
-                            </div>
-                            <div class="client-quote">
-                                <p>“collection of textile samples lay spread out on the table Samsa was a travelling
-                                    salesman and above it there hung a picture that he had recently cut out of an
-                                    illustrated magazine and housed in a nice, gilded frame”</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="blog-section section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col col-md-4">
-                    <div class="section-title">
-                        <span>Recent news</span>
-                        <h2>See what’s happing <span>in our blog</span></h2>
-                    </div>
-                </div>
-                <div class="col col-md-5">
-                    <div class="title-text">
-                        <p>Showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff
-                            that covered the whole of her lower arm.</p>
-                    </div>
-                </div>
-                <div class="col col-md-3">
-                    <div class="view-all">
-                        <a href="#" class="theme-btn">View all post</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col col-xs-12">
-                    <div class="blog-grids">
-                        <div class="grid">
-                            <div class="entry-media">
-                                <img src="{{ asset('assets/images/blog/img-1.jpg') }}" alt>
-                            </div>
-                            <div class="details">
-                                <h3><a href="#">Garment sector set to take an environmental turn</a></h3>
-                                <p class="date">Jun 18, 2019</p>
-                                <p>small, lay peacefully between its four familiar walls. A collection of textile samples
-                                    lay spread</p>
-                                <a href="#" class="more">Read more</a>
-                            </div>
-                        </div>
-                        <div class="grid">
-                            <div class="entry-media">
-                                <img src="{{ asset('assets/images/blog/img-2.jpg') }}" alt>
-                            </div>
-                            <div class="details">
-                                <h3><a href="#">Harrowing consequences of a life without hope for small-scale</a>
-                                </h3>
-                                <p class="date">Jun 18, 2019</p>
-                                <p>small, lay peacefully between its four familiar walls. A collection of textile samples
-                                    lay spread</p>
-                                <a href="#" class="more">Read more</a>
-                            </div>
-                        </div>
-                        <div class="grid">
-                            <div class="entry-media">
-                                <img src="{{ asset('assets/images/blog/img-3.jpg') }}" alt>
-                            </div>
-                            <div class="details">
-                                <h3><a href="#">Their families have been farming cotton for generations</a></h3>
-                                <p class="date">Jun 18, 2019</p>
-                                <p>small, lay peacefully between its four familiar walls. A collection of textile samples
-                                    lay spread</p>
-                                <a href="#" class="more">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="contact-map-section">
         <h2 class="hidden">Contact map</h2>
         <div class="contact-map">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=403 Kupambara Road New Marimba, Harare, Zimbabwe&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                 allowfullscreen></iframe>
+            <div class="mapouter">
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        width: 600px;
+                        height: 400px;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        width: 600px;
+                        height: 400px;
+                    }
+
+                    .gmap_iframe {
+                        width: 600px !important;
+                        height: 400px !important;
+                    }
+                </style>
+            </div>
         </div>
     </section>
 @endsection()
