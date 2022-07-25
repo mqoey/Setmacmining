@@ -14,8 +14,20 @@
             <button class="close-navbar"><i class="ti-close"></i></button>
             <ul class="nav navbar-nav">
                 <li><a href="{{ route('home') }}">Home</a></li>
-                <li><a href="{{ route('service') }}">Products</a></li>
-                <li><a href="{{ route('about') }}">About Us</a></li>
+                <li class="menu-item-has-children">
+                    <a href="#">Chemicals</a>
+                    <ul class="sub-menu">
+                        <li><a href="{{ route('cyanide') }}">Sodium Cyanide</a></li>
+                        <li><a href="{{ route('sulphuric_acid') }}">Sulphuric Acid</a></li>
+                        <li><a href="{{ route('mercury') }}">Mercury</a></li>
+                        <li><a href="{{ route('hydrogen_peroxide') }}">Hydrogen Perovide</a></li>
+                        <li><a href="{{ route('caustic_soda') }}">Caustic Soda</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ route('service') }}">Explosives</a></li>
+                <li><a href="{{ route('service') }}">Equipment</a></li>
+                <li><a href="{{ route('service') }}">Support</a></li>
+                <li><a href="{{ route('about') }}">Who Are We</a></li>
                 <li><a href="{{ route('contact') }}">Contact Us</a></li>
             </ul>
         </div>

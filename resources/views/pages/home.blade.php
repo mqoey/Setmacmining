@@ -37,7 +37,7 @@
                             </div>
                             <div class="clearfix"></div>
                             <div data-swiper-parallax="500" class="slide-btns">
-                                <a href="{{ route('service') }}" class="theme-btn">Our Mining</a>
+                                <a href="{{ route('service') }}" class="theme-btn">Our Services</a>
                                 <a href="{{ route('about') }}" class="theme-btn-s2">Contact us</a>
                             </div>
                         </div>
