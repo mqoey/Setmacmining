@@ -14,7 +14,7 @@
             <button class="close-navbar"><i class="ti-close"></i></button>
             <ul class="nav navbar-nav">
                 <li><a href="{{ route('home') }}">Home</a></li>
-                <li><a href="{{ route('service') }}">Services</a></li>
+                <li><a href="{{ route('service') }}">Products</a></li>
                 <li><a href="{{ route('about') }}">About Us</a></li>
                 <li><a href="{{ route('contact') }}">Contact Us</a></li>
             </ul>

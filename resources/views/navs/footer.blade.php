@@ -27,7 +27,7 @@
                         <ul>
                             <li><a href="{{ route('home') }}">Home</a></li>
                             <li><a href="{{ route('about') }}">About Us</a></li>
-                            <li><a href="{{ route('service') }}">Our services</a></li>
+                            <li><a href="{{ route('service') }}">Our products</a></li>
                             <li><a href="{{ route('contact') }}">Contact</a></li>
                         </ul>
                     </div>
@@ -35,13 +35,13 @@
                 <div class="col col-lg-3 col-md-3 col-sm-6">
                     <div class="widget contact-widget service-link-widget">
                         <div class="widget-title">
-                            <h3>Address Location</h3>
+                            <h3>Head Office</h3>
                         </div>
                         <ul>
                             <li>403 Kupambara Road New Marimba, Harare, Zimbabwe</li>
                             <li>Phone: +263 78 060 3474</li>
                             <li>Office Time: 8AM- 6PM</li>
-                            <li>enquires@setmacmining.co.zw</li>
+                            <li>enquiries@setmacmining.co.zw</li>
                         </ul>
                     </div>
                 </div>

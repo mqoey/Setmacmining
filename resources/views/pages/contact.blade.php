@@ -99,8 +99,11 @@
         <h2 class="hidden">Contact map</h2>
         <div class="contact-map">
             <iframe
-                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=403 Kupambara Road New Marimba, Harare, Zimbabwe&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                {{-- src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=403 Kupambara Road New Marimba, Harare, Zimbabwe&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" --}}
+                src= "https://maps.google.com/maps?q=-20.3159911,30.053196&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 allowfullscreen></iframe>
+
+                {{-- <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src=n"https://maps.google.com/maps?q=-20.3159911,30.053196&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">responsive google map embed</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div> --}}
         </div>
     </section>
 @endsection

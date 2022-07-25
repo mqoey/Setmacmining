@@ -8,10 +8,10 @@
                         data-background="{{ asset('assets/images/slider/slide-2.jpg') }}">
                         <div class="container">
                             <div data-swiper-parallax="300" class="slide-subtitle">
-                                <span>Best Mining</span>
+                                <span>Best Mining Products</span>
                             </div>
                             <div data-swiper-parallax="400" class="slide-title">
-                                <h2><span>We Provide Best</span> Mining Services</h2>
+                                <h2><span>We Provide Best</span> Mining Consumables</h2>
                             </div>
                             <div class="clearfix"></div>
                             <div data-swiper-parallax="500" class="slide-btns">
@@ -27,10 +27,13 @@
                         data-background="{{ asset('assets/images/slider/slide-1.jpg') }}">
                         <div class="container">
                             <div data-swiper-parallax="300" class="slide-subtitle">
-                                <span>Best Mining</span>
+                                <span>Best Mining Products</span>
                             </div>
                             <div data-swiper-parallax="400" class="slide-title">
-                                <h2><span>We Provide Best</span> Mining Services</h2>
+                                <h2><span></span> CHEMICALS<br>
+                                    EXPLOSIVES<br>
+                                    EQUIPMENT<br>
+                                    SUPPORT<br> </h2>
                             </div>
                             <div class="clearfix"></div>
                             <div data-swiper-parallax="500" class="slide-btns">
@@ -41,7 +44,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide">
+                {{-- <div class="swiper-slide">
                     <div class="slide-inner slide-bg-image"
                         data-background="{{ asset('assets/images/slider/slide-3.jpg') }}">
                         <div class="container">
@@ -58,7 +61,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
 
             <div class="swiper-pagination"></div>
@@ -140,13 +143,13 @@
         </div>
     </section>
 
-    <section class="services-section-s2 section-padding">
+    <section class="services-section-s3 section-padding">
         <div class="container">
             <div class="row">
                 <div class="col col-lg-4 col-lg-offset-4 col-sm-6 col-sm-offset-3">
                     <div class="section-title-s4">
-                        <span>Services</span>
-                        <h2>The Best Services <span>we provide</span></h2>
+                        <span>Products</span>
+                        <h2>We Provide <span>the best products</span></h2>
                     </div>
                 </div>
             </div>
@@ -154,64 +157,46 @@
                 <div class="col col-xs-12">
                     <div class="service-grids clearfix">
                         <div class="grid">
-                            <div class="img-holder">
-                                <img src="assets/images/services/img-1.jpg" alt>
-                            </div>
                             <div class="details">
                                 <i class="fi flaticon-solar-energy"></i>
-                                <h3><a href="{{ route('service') }}">Mining imports and supplies</a></h3>
+                                <h3><a href="cyanide">Cyanide</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
                         </div>
                         <div class="grid">
-                            <div class="img-holder">
-                                <img src="assets/images/services/img-2.jpg" alt>
-                            </div>
                             <div class="details">
                                 <i class="fi flaticon-plug"></i>
-                                <h3><a href="{{ route('service') }}">Sodium Cyanide</a></h3>
+                                <h3><a href="caustic_soda">Caustic Soda</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
                         </div>
                         <div class="grid">
-                            <div class="img-holder">
-                                <img src="assets/images/services/img-3.jpg" alt>
-                            </div>
                             <div class="details">
                                 <i class="fi flaticon-oil-barrel"></i>
-                                <h3><a href="{{ route('service') }}">Caustic Soda</a></h3>
+                                <h3><a href="hydrogen_peroxide">Hydrogen Peroxide</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
                         </div>
                         <div class="grid">
-                            <div class="img-holder">
-                                <img src="{{asset('assets/images/services/img-4.')}}" alt>
-                            </div>
                             <div class="details">
                                 <i class="fi flaticon-oil-1"></i>
-                                <h3><a href="{{ route('service') }}">Silver Mercury</a></h3>
+                                <h3><a href="mercury">Mercury</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
                         </div>
                         <div class="grid">
-                            <div class="img-holder">
-                                <img src="{{asset('assets/images/services/img-5.jpg')}}" alt>
-                            </div>
                             <div class="details">
                                 <i class="fi flaticon-truck"></i>
-                                <h3><a href="{{ route('service') }}">Logistics Services</a></h3>
+                                <h3><a href="sulphuric_acid">Sulphuric Acid</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
                         </div>
-                        <div class="grid">
-                            <div class="img-holder">
-                                <img src="{{asset('assets/images/services/img-6.jpg')}}" alt>
-                            </div>
+                        {{-- <div class="grid">
                             <div class="details">
                                 <i class="fi flaticon-factory"></i>
-                                <h3><a href="{{ route('service') }}">General Mining</a></h3>
+                                <h3><a href="#">General Mining</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -369,7 +354,9 @@
         <h2 class="hidden">Contact map</h2>
         <div class="contact-map">
             <iframe
-                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=403 Kupambara Road New Marimba, Harare, Zimbabwe&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                {{-- src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=403 Kupambara Road New Marimba, Harare, Zimbabwe&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" --}}
+                src= "https://maps.google.com/maps?q=-20.3159911,30.053196&t=&z=13&ie=UTF8&iwloc=&output=embed"
+
                 allowfullscreen></iframe>
             <div class="mapouter">
                 <style>
