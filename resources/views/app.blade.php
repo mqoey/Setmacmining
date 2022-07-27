@@ -23,7 +23,6 @@
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 </head>
 <body>
-
     <div class="page-wrapper">
         <div class="preloader">
             <div class="lds-ellipsis">
@@ -63,9 +62,7 @@
         </header>
         @yield('content')
         @include('navs.footer')
-
     </div>
-
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery-plugin-collection.js') }}"></script>

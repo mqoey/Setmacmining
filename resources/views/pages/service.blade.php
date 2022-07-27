@@ -1,5 +1,4 @@
 @extends('app')
-
 @section('content')
     <section class="page-title">
         <div class="container">
@@ -7,7 +6,7 @@
                 <div class="col col-xs-12">
                     <h2>Products</h2>
                     <ol class="breadcrumb">
-                        <li><a href="{{ route('home') }}}">Home</a></li>
+                        <li><a href="{{ route('home') }}">Home</a></li>
                         <li>Products</li>
                     </ol>
                 </div>
@@ -61,13 +60,6 @@
                                 <h3><a href="sulphuric_acid">Sulphuric Acid</a></h3>
                                 <p>Recently cut out of an illustrated magine and housed indust</p>
                             </div>
-                        </div>
-                        {{-- <div class="grid">
-                            <div class="details">
-                                <i class="fi flaticon-factory"></i>
-                                <h3><a href="#">General Mining</a></h3>
-                                <p>Recently cut out of an illustrated magine and housed indust</p>
-                            </div> --}}
                         </div>
                     </div>
                 </div>
