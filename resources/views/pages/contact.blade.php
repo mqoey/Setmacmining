@@ -26,23 +26,19 @@
             </div>
             <div class="row">
                 <div class="col col-md-7">
-                    <form method="post" class="contact-validation-active" id="contact-form-main">
+                    <form method="POST" action="{{ route('contact.store') }}" class="contact-validation-active">
+                        @csrf
                         <div>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Name*">
+                            <input required type="text" class="form-control" name="name" id="name" placeholder="Name*">
                         </div>
                         <div>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email*">
+                            <input required type="email" class="form-control" name="email" id="email" placeholder="Email*">
                         </div>
                         <div>
-                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone*">
+                            <input required type="text" class="form-control" name="phone" id="phone" placeholder="Phone*">
                         </div>
                         <div>
-                            <select name="subject" class="form-control">
-                                <option disabled="disabled" selected>Contact subject</option>
-                                <option>Subject 1</option>
-                                <option>Subject 2</option>
-                                <option>Subject 3</option>
-                            </select>
+                            <input required type="text" class="form-control" name="subject" id="subject" placeholder="Subject*">
                         </div>
                         <div class="fullwidth">
                             <textarea class="form-control" name="note" id="note" placeholder="Case Description..."></textarea>
