@@ -19,7 +19,7 @@
                 <div class="col col-md-9 col-md-push-3">
                     <div class="service-single-content">
                         <div class="service-single-img-holder">
-                            <img src="assets/images/service-single/img-2.jpg" alt>
+                            {{-- <img src="assets/images/service-single/img-2.jpg" alt> --}}
                         </div>
                         <h2>Hydrogen Peroxide</h2>
                         <p>Hydrogen Peroxide used in gold and silver leaching processes to enhance overall leach recovery

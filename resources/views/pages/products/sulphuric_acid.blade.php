@@ -20,7 +20,7 @@
                 <div class="col col-md-9 col-md-push-3">
                     <div class="service-single-content">
                         <div class="service-single-img-holder">
-                            <img src="assets/images/service-single/sulphuric_acid.jpg" alt>
+                            <img src="assets/images/service-single/sulphuric_acid.png" alt>
                         </div>
                         <h2>Sulphuric Acid</h2>
                         <p>Sulphuric acid is a toxic chemical used in copper and mining. It is also a byproduct of many
