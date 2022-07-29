@@ -33,4 +33,7 @@ Route::get('hydrogen_peroxide', function () {
 Route::get('sulphuric_acid', function () {
     return view('pages.products.sulphuric_acid');
 })->name('sulphuric_acid');
+Route::get('support', function () {
+    return view('pages.support');
+})->name('support');
 Route::post('contact', [ContactController::class, 'store'])->name('contact.store');
