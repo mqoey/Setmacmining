@@ -3,6 +3,7 @@
 namespace App\Admin\Controllers;
 
 use App\Models\Product;
+use App\Models\ProductType;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -28,7 +29,7 @@ class ProductController extends AdminController
 
         $grid->column('name', __('Name'));
         $grid->column('description', __('Description'));
-        $grid->column('product_type_id', __('Product type id'));
+        $grid->column('productType.name', __('Product Type'));
         $grid->column('image', __('Image'));
 
         return $grid;
@@ -66,7 +67,7 @@ class ProductController extends AdminController
 
         $form->text('name', __('Name'));
         $form->text('description', __('Description'));
-        $form->number('product_type_id', __('Product type id'));
+        $form->select('product_type_id', __('Product Type'))->options(ProductType::all()->pluck('name', 'id'));
         $form->image('image', __('Image'));
 
         return $form;

@@ -14,8 +14,8 @@
                             </div>
                             <div class="clearfix"></div>
                             <div data-swiper-parallax="500" class="slide-btns">
-                                <a href="{{ route('service') }}" class="theme-btn">Our Services</a>
-                                <a href="{{ route('about') }}" class="theme-btn-s2">Contact us</a>
+                                {{-- <a href="{{ route('service') }}" class="theme-btn">Our Services</a> --}}
+                                <a href="{{ route('contact') }}" class="theme-btn-s2">Contact us</a>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
                             </div>
                             <div class="clearfix"></div>
                             <div data-swiper-parallax="500" class="slide-btns">
-                                <a href="{{ route('service') }}" class="theme-btn">Our Services</a>
+                                {{-- <a href="{{ route('service') }}" class="theme-btn">Our Services</a> --}}
                                 <a href="{{ route('about') }}" class="theme-btn-s2">Contact us</a>
                             </div>
                         </div>

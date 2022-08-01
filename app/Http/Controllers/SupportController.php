@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\ProductType;
 use App\Models\Support;
 use Illuminate\Http\Request;
 
@@ -14,7 +15,9 @@ class SupportController extends Controller
      */
     public function index()
     {
-        //
+        return view('pages.support')
+        ->with('supports', Support::all())
+        ->with('product_types', ProductType::all());
     }
 
     /**

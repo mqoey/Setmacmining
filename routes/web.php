@@ -1,39 +1,18 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\SupportController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('pages.home');
-})->name('home');
-Route::get('contact', function () {
-    return view('pages.contact');
-})->name('contact');
-Route::get('about', function () {
-    return view('pages.about');
-})->name('about');
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('contact', [ContactController::class, 'index'])->name('contact');
+Route::get('about', [AboutController::class, 'index'])->name('about');
 Route::get('service', function () {
     return view('pages.service');
 })->name('service');
-Route::get('service', function () {
-    return view('pages.service');
-})->name('service');
-Route::get('cyanide', function () {
-    return view('pages.products.cyanide');
-})->name('cyanide');
-Route::get('caustic_soda', function () {
-    return view('pages.products.caustic_soda');
-})->name('caustic_soda');
-Route::get('mercury', function () {
-    return view('pages.products.mecury');
-})->name('mercury');
-Route::get('hydrogen_peroxide', function () {
-    return view('pages.products.hydrogen_peroxide');
-})->name('hydrogen_peroxide');
-Route::get('sulphuric_acid', function () {
-    return view('pages.products.sulphuric_acid');
-})->name('sulphuric_acid');
-Route::get('support', function () {
-    return view('pages.support');
-})->name('support');
+Route::get('support', [SupportController::class, 'index'])->name('support');
+Route::get('/product/{product}', [ProductController::class, 'show'])->name('product.show');
 Route::post('contact', [ContactController::class, 'store'])->name('contact.store');

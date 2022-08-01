@@ -13,19 +13,19 @@
             <button class="close-navbar"><i class="ti-close"></i></button>
             <ul class="nav navbar-nav">
                 <li><a href="{{ route('home') }}">Home</a></li>
-                <li class="menu-item-has-children">
-                    <a href="#">Chemicals</a>
-                    <ul class="sub-menu">
-                        <li><a href="{{ route('cyanide') }}">Sodium Cyanide</a></li>
-                        <li><a href="{{ route('sulphuric_acid') }}">Sulphuric Acid</a></li>
-                        <li><a href="{{ route('mercury') }}">Mercury</a></li>
-                        <li><a href="{{ route('hydrogen_peroxide') }}">Hydrogen Peroxide</a></li>
-                        <li><a href="{{ route('caustic_soda') }}">Caustic Soda</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#">Explosives</a></li>
-                <li class="menu-item-has-children"><a href="#">Equipment</a></li>
-                <li><a href="{{route('support')}}">Support</a></li>
+                @foreach ($product_types as $product_type)
+                    <li class="menu-item-has-children">
+                        <a href="#">{{ $product_type->name }}</a>
+                        <ul class="sub-menu">
+                            @foreach ($product_type->product as $product)
+                                <li>
+                                    <a href="{{ route('product.show', $product) }}">{{ $product->name }}</a>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </li>
+                @endforeach
+                <li><a href="{{ route('support') }}">Support</a></li>
                 <li><a href="{{ route('about') }}">Who Are We</a></li>
                 <li><a href="{{ route('contact') }}">Contact Us</a></li>
             </ul>

@@ -11,22 +11,22 @@ return [
     | login page.
     |
     */
-    'name' => 'Laravel-admin',
+    'name' => 'Setmac Mining Admin',
 
     /*
     |--------------------------------------------------------------------------
-    | Laravel-admin logo
+    | Setmac Mining Admin logo
     |--------------------------------------------------------------------------
     |
     | The logo of all admin pages. You can also set it as an image by using a
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<b>Laravel</b> admin',
+    'logo' => '<b>Setmac Mining</b> Admin',
 
     /*
     |--------------------------------------------------------------------------
-    | Laravel-admin mini logo
+    | Setmac Mining Admin mini logo
     |--------------------------------------------------------------------------
     |
     | The logo of all admin pages when the sidebar menu is collapsed. You can
@@ -38,17 +38,17 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Laravel-admin bootstrap setting
+    | Setmac Mining Admin bootstrap setting
     |--------------------------------------------------------------------------
     |
-    | This value is the path of laravel-admin bootstrap file.
+    | This value is the path of Setmac Mining Admin bootstrap file.
     |
     */
     'bootstrap' => app_path('Admin/bootstrap.php'),
 
     /*
     |--------------------------------------------------------------------------
-    | Laravel-admin route settings
+    | Setmac Mining Admin route settings
     |--------------------------------------------------------------------------
     |
     | The routing configuration of the admin page, including the path prefix,
@@ -67,7 +67,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Laravel-admin install directory
+    | Setmac Mining Admin install directory
     |--------------------------------------------------------------------------
     |
     | The installation directory of the controller and routing configuration
@@ -79,7 +79,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Laravel-admin html title
+    | Setmac Mining Admin html title
     |--------------------------------------------------------------------------
     |
     | Html title for all pages.
@@ -99,7 +99,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Laravel-admin auth setting
+    | Setmac Mining Admin auth setting
     |--------------------------------------------------------------------------
     |
     | Authentication settings for all admin pages. Include an authentication
@@ -143,7 +143,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Laravel-admin upload setting
+    | Setmac Mining Admin upload setting
     |--------------------------------------------------------------------------
     |
     | File system configuration for form upload files and images, including
@@ -164,10 +164,10 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Laravel-admin database settings
+    | Setmac Mining Admin database settings
     |--------------------------------------------------------------------------
     |
-    | Here are database settings for laravel-admin builtin model & tables.
+    | Here are database settings for Setmac Mining Admin builtin model & tables.
     |
     */
     'database' => [
@@ -204,7 +204,7 @@ return [
     | User operation log setting
     |--------------------------------------------------------------------------
     |
-    | By setting this option to open or close operation log in laravel-admin.
+    | By setting this option to open or close operation log in Setmac Mining Admin.
     |
     */
     'operation_log' => [
@@ -306,7 +306,7 @@ return [
     | Show version at footer
     |--------------------------------------------------------------------------
     |
-    | Whether to display the version number of laravel-admin at the footer of
+    | Whether to display the version number of Setmac Mining Admin at the footer of
     | each page
     |
     */
@@ -401,10 +401,24 @@ return [
     |--------------------------------------------------------------------------
     |
     | You can find all available extensions here
-    | https://github.com/laravel-admin-extensions.
+    | https://github.com/Setmac Mining Admin-extensions.
     |
     */
     'extensions' => [
 
     ],
+
+    'upload' => [
+
+        // Disk in `config/filesystem.php`.
+        'disk' => 'admin',
+
+        // Image and file upload path under the disk above.
+        'directory' => [
+            'image' =>'images',
+            'file' =>'files',
+        ]
+    ],
 ];
+
+

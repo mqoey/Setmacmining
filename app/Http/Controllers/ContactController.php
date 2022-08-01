@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\ContactMail;
 use App\Models\Contact;
+use App\Models\ProductType;
 use Illuminate\Http\Request;
 use Mail;
 
@@ -16,7 +17,8 @@ class ContactController extends Controller
      */
     public function index()
     {
-        return view('pages.contact');
+        return view('pages.contact')
+        ->with('product_types', ProductType::all());
     }
 
     /**
