@@ -72,7 +72,7 @@
                     <p class="copyright">Copyright &copy; 2022 Setmac Mining. All rights reserved.</p>
                     <div class="short-links">
                         <ul>
-                            <li>Developed by <a href="http://mqographics.co.zw">Mqographics</a></li>
+                            <li>Developed by <a href="https://leviersoft.com">LevierSoft Solutions</a></li>
                         </ul>
                     </div>
                 </div>
